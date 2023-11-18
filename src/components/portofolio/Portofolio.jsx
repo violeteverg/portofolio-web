@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "Twitter clone",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "Twitter-clone.png",
     desc: "Twitter Clone is the final project we developed during the HariSenin bootcamp. In this project, I was responsible for implementing authentication on the frontend, while on the backend, my focus was on retrieving user data from the database we built. This project reflects our team's work in creating a functional clone of the Twitter application",
   },
   {
@@ -18,13 +18,13 @@ const items = [
   {
     id: 3,
     title: "World Wise App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "World-wise.png",
     desc: "World Wise is a project where users can conveniently mark the places they have visited. This application is built using React.js and provides an interactive experience for users to record and remember meaningful locations in their travels.",
   },
   {
     id: 4,
     title: "Guess Number",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    img: "Guess-number.png",
     desc: "Guess Number is my first JavaScript project, designed for users to guess a random number. Players have 20 chances to guess the number, and with each opportunity that decreases, their points also diminish. This project provided an engaging experience for users to test their guessing skills and numerical intuition.",
   },
 ];
