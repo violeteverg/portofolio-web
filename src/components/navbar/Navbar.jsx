@@ -1,5 +1,7 @@
+import React from "react";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -13,15 +15,15 @@ const Navbar = () => {
           Fauzan
         </motion.span>
         <div className="social">
-          <a href="#">
-            <span>About</span>
-          </a>
-          <a href="#">
-            <span>Portofolio</span>
-          </a>
-          <a href="#">
-            <span>Contact</span>
-          </a>
+          <Link to="about" className="span" smooth={true} duration={500}>
+            About
+          </Link>
+          <Link to="portfolio" className="span" smooth={true} duration={500}>
+            Portofolio
+          </Link>
+          <Link to="contact" className="span" smooth={true} duration={500}>
+            Contact
+          </Link>
         </div>
       </div>
     </div>

@@ -18,6 +18,7 @@
 
     span {
       font-weight: bold;
+      cursor: crosshair;
 
       @include mobile {
         display: none;
