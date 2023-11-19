@@ -13,8 +13,8 @@ const items = [
   {
     id: 2,
     title: "Expanse App",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Expanse App is my first full-stack project, combining React for the frontend and Node.js with MySQL for the backend. This application allows users to manage their financial expenses. The project provided me with valuable experience in frontend-backend integration and database management.",
+    img: "Expanse-app.png",
+    desc: "Expanse App full-stack project, combining React for the frontend and Node.js with MySQL for the backend. This application allows users to manage their financial expenses. The project provided me with valuable experience in frontend-backend integration and database management.",
     link: "#",
   },
   {
