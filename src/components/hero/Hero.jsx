@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const textVariants = {
   initial: {
@@ -51,9 +52,32 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Front-end developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              See the Latest Works
+              <Link
+                to="about" // Sesuaikan dengan ID elemen Portofolio Anda
+                smooth={true}
+                duration={500}
+              >
+                About me
+              </Link>
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>
+              <Link
+                to="Portofolio" // Sesuaikan dengan ID elemen Portofolio Anda
+                smooth={true}
+                duration={500}
+              >
+                Portofolio
+              </Link>
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <Link
+                to="Contact" // Sesuaikan dengan ID elemen Kontak Anda
+                smooth={true}
+                duration={500}
+              >
+                Contact Me
+              </Link>
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}

@@ -1,7 +1,7 @@
 import "./app.scss";
 
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/Hero/Hero";
+import Hero from "./components/hero/Hero";
 import Parallax from "./components/Parallax/Parallax";
 import About from "./components/about/About";
 import Portfolio from "./components/portofolio/Portofolio";
@@ -27,7 +27,7 @@ const App = () => {
 
       <Portfolio />
 
-      <section id="contact">
+      <section id="Contact">
         <Contact />
       </section>
     </div>

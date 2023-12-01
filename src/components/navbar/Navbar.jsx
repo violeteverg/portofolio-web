@@ -14,17 +14,6 @@ const Navbar = () => {
         >
           Fauzan
         </motion.span>
-        <div className="social">
-          <Link to="about" className="span" smooth={true} duration={500}>
-            About
-          </Link>
-          <Link to="portfolio" className="span" smooth={true} duration={500}>
-            Portofolio
-          </Link>
-          <Link to="contact" className="span" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </div>
       </div>
     </div>
   );

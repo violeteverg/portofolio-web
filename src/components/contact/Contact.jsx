@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 
@@ -35,15 +35,18 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>lalal@dev.com</span>
+          <span>muh.fauzan124578@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>blablaba</span>
+          <span>
+            Jl. Laskar Dalam, Griya Metropolitan Blok D1 No.1, RT.005/RW.003,
+            Pekayon Jaya, Kota Bks, Jawa Barat
+          </span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+628111111111</span>
+          <span>+62857-8001-0304</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
