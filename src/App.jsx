@@ -2,7 +2,7 @@ import "./app.scss";
 
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-import Parallax from "./components/Parallax/Parallax";
+import Parallax from "./components/parallax/Parallax";
 import About from "./components/about/About";
 import Portfolio from "./components/portofolio/Portofolio";
 import Contact from "./components/contact/Contact";
