@@ -52,12 +52,8 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Front-end developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              <Link
-                to="about" // Sesuaikan dengan ID elemen Portofolio Anda
-                smooth={true}
-                duration={500}
-              >
-                About me
+              <Link to="about" smooth={true} duration={500}>
+                About
               </Link>
             </motion.button>
             <motion.button variants={textVariants}>
@@ -70,12 +66,8 @@ const Hero = () => {
               </Link>
             </motion.button>
             <motion.button variants={textVariants}>
-              <Link
-                to="Contact" // Sesuaikan dengan ID elemen Kontak Anda
-                smooth={true}
-                duration={500}
-              >
-                Contact Me
+              <Link to="Contact" smooth={true} duration={500}>
+                Contact
               </Link>
             </motion.button>
           </motion.div>

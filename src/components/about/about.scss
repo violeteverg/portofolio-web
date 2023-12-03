@@ -1,19 +1,23 @@
+@import "../../app.scss";
 .about {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 20px;
 
   .image_container {
-    margin-right: 100px;
-    .img {
-      img {
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
+    margin-right: 50px;
+    margin-left: 20px;
+    img {
+      width: 100%;
+
+      object-fit: cover;
+
+      @include mobile {
+        display: none;
       }
     }
   }
@@ -21,6 +25,12 @@
   .wrapper {
     max-width: 600px;
     text-align: left;
+    margin-right: 20px;
+
+    @include mobile {
+      width: auto;
+      justify-content: center;
+    }
 
     h1 {
       font-size: 50px;
@@ -28,10 +38,17 @@
 
     .skills {
       margin-top: 100px;
+      @include mobile {
+        margin-top: 50px;
+      }
       img {
         width: 50px;
         height: 50px;
         margin-right: 10px;
+        @include mobile {
+          width: 45px;
+          height: 45px;
+        }
       }
     }
   }

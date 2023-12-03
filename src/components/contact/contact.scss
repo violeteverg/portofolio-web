@@ -12,6 +12,7 @@
   @include mobile {
     width: 100%;
     padding: 10px;
+    align-items: center;
     flex-direction: column;
   }
 
@@ -50,8 +51,7 @@
     position: relative;
 
     @include mobile {
-      padding: 50px;
-      width: 100%;
+      display: none;
     }
 
     .phoneSvg {

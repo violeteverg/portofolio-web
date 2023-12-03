@@ -92,7 +92,7 @@
           font-size: 20px;
 
           @include mobile {
-            font-size: 16px;
+            display: none;
           }
         }
 
