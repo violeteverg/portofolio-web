@@ -22,13 +22,12 @@ const About = () => {
       <motion.div style={{ x: yText }} className="wrapper">
         <h1>About Me</h1>
         <p>
-          A bachelor degree from Terbuka University. Turning Full-Stack
-          Developer skilled in HTML, CSS, Javascript, React.js, and Node.js.
-          Actively enrolled in a Full-Stack Web Developer bootcamp to enhance
-          web development capabilities. Detail oriented and eager for a
-          full-time opportunity in Full-Stack Web Development. Passionate about
-          combining biology knowledge with tech skills to create innovative
-          solutions.
+          A bachelor degree from Terbuka University. Turning Frontend Developer
+          skilled in HTML, CSS, Javascript, React.js, and Node.js. Actively
+          enrolled in a Frontend Web Developer bootcamp to enhance web
+          development capabilities. Detail oriented and eager for a full-time
+          opportunity in Frontend Web Development. Passionate about combining
+          biology knowledge with tech skills to create innovative solutions.
         </p>
 
         <div className="skills">
