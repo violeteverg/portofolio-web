@@ -8,7 +8,7 @@ const items = [
     title: "Twitter clone",
     img: "Twitter-clone.png",
     desc: "Twitter Clone is the final project we developed during the HariSenin bootcamp. In this project, I was responsible for implementing authentication on the frontend, while on the backend, my focus was on retrieving user data from the database we built. This project reflects our team's work in creating a functional clone of the Twitter application",
-    link: "#",
+    link: "https://final-project-kel2.vercel.app/",
   },
   {
     id: 2,
@@ -78,7 +78,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
+        <h1>Projects</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (

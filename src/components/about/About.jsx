@@ -15,19 +15,18 @@ const About = () => {
 
   return (
     <div className="about" ref={ref}>
-      <motion.div style={{ y: yBg }} className="image_container">
-        <img src="/download.jpg" alt="foto" />
-      </motion.div>
-
       <motion.div style={{ x: yText }} className="wrapper">
         <h1>About Me</h1>
         <p>
-          A bachelor degree from Terbuka University. Turning Frontend Developer
-          skilled in HTML, CSS, Javascript, React.js, and Node.js. Actively
-          enrolled in a Frontend Web Developer bootcamp to enhance web
-          development capabilities. Detail oriented and eager for a full-time
-          opportunity in Frontend Web Development. Passionate about combining
-          biology knowledge with tech skills to create innovative solutions.
+          A graduate with a bachelor's degree from Terbuka University, I am
+          transitioning into a Frontend Developer role, equipped with skills in
+          HTML, CSS, Javascript, React.js, and Node.js. Actively enrolled in a
+          Frontend Web Developer bootcamp, I find the journey exciting and am
+          committed to continuous learning, always seeking opportunities to
+          explore new technologies and embrace fresh challenges. Detail-oriented
+          and enthusiastic, I am eagerly pursuing a full-time opportunity in
+          Frontend Web Development, aiming to contribute my skills and passion
+          for crafting innovative solutions.
         </p>
 
         <div className="skills">
@@ -38,6 +37,7 @@ const About = () => {
           <img src="/JavascriptLogo.png" alt="" />
           <img src="/ReactJsLogo.png" alt="" />
           <img src="/NodeJsLogo.png" alt="" />
+          <img src="/gitLogo.png" alt="" />
         </div>
       </motion.div>
     </div>

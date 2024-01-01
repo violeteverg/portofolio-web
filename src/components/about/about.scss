@@ -1,6 +1,6 @@
 @import "../../app.scss";
 .about {
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  background: linear-gradient(180deg, #14142e, #111132);
   height: 100%;
 
   display: flex;
@@ -8,28 +8,14 @@
   justify-content: center;
   align-items: center;
 
-  .image_container {
-    margin-right: 50px;
-    margin-left: 20px;
-    img {
-      width: 100%;
-
-      object-fit: cover;
-
-      @include mobile {
-        display: none;
-      }
-    }
-  }
-
   .wrapper {
-    max-width: 600px;
     text-align: left;
-    margin-right: 20px;
+    margin: 0px 40px;
 
     @include mobile {
       width: auto;
       justify-content: center;
+      margin: 0px 20px;
     }
 
     h1 {

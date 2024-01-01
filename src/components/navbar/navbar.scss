@@ -12,17 +12,33 @@
     height: 100%;
 
     @include mobile {
-      justify-content: flex-end;
+      justify-content: space-between;
       padding: 20px;
     }
-
-    span {
-      font-weight: bold;
-      cursor: crosshair;
+    .buttons {
+      display: flex;
+      list-style-type: none;
 
       @include mobile {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
       }
+      li {
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+        font-weight: 300;
+
+        @include mobile {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    img {
+      height: 44px;
     }
   }
 }

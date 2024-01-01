@@ -48,29 +48,12 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>MUHAMMAD FAUZAN</motion.h2>
-          <motion.h1 variants={textVariants}>Front-end developer</motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              <Link to="about" smooth={true} duration={500}>
-                About
-              </Link>
-            </motion.button>
-            <motion.button variants={textVariants}>
-              <Link
-                to="Portofolio" // Sesuaikan dengan ID elemen Portofolio Anda
-                smooth={true}
-                duration={500}
-              >
-                Portofolio
-              </Link>
-            </motion.button>
-            <motion.button variants={textVariants}>
-              <Link to="Contact" smooth={true} duration={500}>
-                Contact
-              </Link>
-            </motion.button>
-          </motion.div>
+          <motion.h1 variants={textVariants}>Hello,i'm Fauzan</motion.h1>
+          <motion.h2 variants={textVariants}>
+            I'm passionate about becoming a frontend developer and seeking
+            experiences to create user-friendly and engaging interfaces
+          </motion.h2>
+
           <motion.img
             variants={textVariants}
             animate="scrollButton"
@@ -78,6 +61,9 @@ const Hero = () => {
             alt=""
           />
         </motion.div>
+        <div className="imageContainer">
+          <img src="/Hero.png" alt="" />
+        </div>
       </div>
       <motion.div
         className="slidingTextContainer"
@@ -87,9 +73,6 @@ const Hero = () => {
       >
         Frontend developer
       </motion.div>
-      <div className="imageContainer">
-        <img src="/Hero.png" alt="" />
-      </div>
     </div>
   );
 };
