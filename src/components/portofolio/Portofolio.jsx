@@ -5,31 +5,31 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    title: "Leafy Nest",
+    img: "LeafyNest.png",
+    desc: "Leafty Nest is a project developed during the Phincon Academy, designed to simulate an e-commerce platform for plant enthusiasts. My role in this project included integrating user authentication on the frontend and building features for managing products and user data on the backend. This project highlights the collaborative effort of our team in creating a fully functional and visually appealing platform tailored for plant lovers.",
+    link: "https://leafy-nest-user.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Expanse App",
+    img: "Expanses.png",
+    desc: "Expanse App is a full-stack project built using Next.js for the frontend and backend, with PostgreSQL as the database. This application enables users to manage their financial expenses efficiently. Working on this project gave me hands-on experience in developing a full-stack application, seamless frontend-backend integration, and implementing database management with PostgreSQL.",
+    link: "https://project-assignment-sooty.vercel.app/login",
+  },
+  {
+    id: 3,
     title: "Twitter clone",
     img: "Twitter-clone.png",
     desc: "Twitter Clone is the final project we developed during the HariSenin bootcamp. In this project, I was responsible for implementing authentication on the frontend, while on the backend, my focus was on retrieving user data from the database we built. This project reflects our team's work in creating a functional clone of the Twitter application",
     link: "https://final-project-kel2.vercel.app/",
   },
   {
-    id: 2,
-    title: "Expanse App",
-    img: "Expanse-app.png",
-    desc: "Expanse App full-stack project, combining React for the frontend and Node.js with MySQL for the backend. This application allows users to manage their financial expenses. The project provided me with valuable experience in frontend-backend integration and database management.",
-    link: "#",
-  },
-  {
-    id: 3,
+    id: 4,
     title: "World Wise App",
     img: "World-wise.png",
     desc: "World Wise is a project where users can conveniently mark the places they have visited. This application is built using React.js and provides an interactive experience for users to record and remember meaningful locations in their travels.",
     link: "#",
-  },
-  {
-    id: 4,
-    title: "Guess Number",
-    img: "Guess-number.png",
-    desc: "Guess Number is my first JavaScript project, designed for users to guess a random number. Players have 20 chances to guess the number, and with each opportunity that decreases, their points also diminish. This project provided an engaging experience for users to test their guessing skills and numerical intuition.",
-    link: "https://violeteverg.github.io/muhammadfauzan-tugas2-javascript/",
   },
 ];
 
@@ -44,12 +44,12 @@ const Single = ({ item }) => {
 
   return (
     <section>
-      <div className="container">
-        <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+      <div className='container'>
+        <div className='wrapper'>
+          <div className='imageContainer' ref={ref}>
+            <img src={item.img} alt='' />
           </div>
-          <motion.div className="textContainer" style={{ y }}>
+          <motion.div className='textContainer' style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <a href={item.link}>
@@ -76,10 +76,10 @@ const Portfolio = () => {
   });
 
   return (
-    <div className="portfolio" ref={ref}>
-      <div className="progress">
+    <div className='portfolio' ref={ref}>
+      <div className='progress'>
         <h1>Projects</h1>
-        <motion.div style={{ scaleX }} className="progressBar"></motion.div>
+        <motion.div style={{ scaleX }} className='progressBar'></motion.div>
       </div>
       {items.map((item) => (
         <Single item={item} key={item.id} />
